@@ -139,5 +139,8 @@ PRs welcome. Please read:
 MIT — see [LICENSE](LICENSE).
 
 
-## Prompt Injection Attack Examples
-See: examples/prompt-injection-attacks.md
+### Examples
+- [Prompt Injection Attack Examples](examples/prompt-injection-attacks.md)
+- [Prompt Injection Patterns](examples/prompt-injection-examples.md)
+- [Safe Prompt Templates](examples/safe-prompt-templates.md)
+- [AI Code Vulnerability Examples](examples/code-vuln-examples.md)

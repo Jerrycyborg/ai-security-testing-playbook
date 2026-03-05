@@ -10,6 +10,7 @@ theme:
 
 nav:
   - Home: docs/index.md
+  - Changelog: CHANGELOG.md
   - Scope & Ethics: docs/scope-and-ethics.md
   - Quickstart: docs/quickstart.md
   - Threat Modeling: docs/threat-modeling.md
@@ -31,6 +32,11 @@ nav:
       - Mitigation Patterns: patterns/mitigation-patterns.md
       - Eval Metrics: patterns/eval-metrics.md
       - Logging & Monitoring: patterns/logging-and-monitoring.md
+  - Examples:
+      - Prompt Injection Attacks: examples/prompt-injection-attacks.md
+      - Prompt Injection Patterns: examples/prompt-injection-examples.md
+      - Safe Prompt Templates: examples/safe-prompt-templates.md
+      - Code Vulnerability Examples: examples/code-vuln-examples.md
   - Labs:
       - Prompt Injection Toy App: labs/prompt-injection-toy-app/README.md
       - RAG Poisoning Simulator: labs/rag-poisoning-simulator/README.md
