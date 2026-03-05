@@ -1,0 +1,25 @@
+name: basic-ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  sanity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check repository structure
+        run: |
+          test -f README.md
+          test -f LICENSE
+          test -f mkdocs.yml
+          test -f docs-requirements.txt
+          test -d playbooks
+          test -d checklists
+          test -d labs
+
+      - name: Python syntax check (labs)
+        run: |
+          python -m compileall labs

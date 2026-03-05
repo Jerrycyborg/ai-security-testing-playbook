@@ -1,0 +1,35 @@
+site_name: AI Security Testing Playbook
+repo_name: ai-security-testing-playbook
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - content.code.copy
+
+nav:
+  - Home: docs/index.md
+  - Scope & Ethics: docs/scope-and-ethics.md
+  - Quickstart: docs/quickstart.md
+  - Threat Modeling: docs/threat-modeling.md
+  - Glossary: docs/glossary.md
+  - Playbooks:
+      - Prompt Injection: playbooks/prompt-injection.md
+      - Jailbreaks: playbooks/jailbreaks.md
+      - Data Leakage: playbooks/data-leakage.md
+      - Tool Use Security: playbooks/tool-use-security.md
+      - RAG Security: playbooks/rag-security.md
+      - Code Generation Security: playbooks/code-generation-security.md
+      - Incident Response: playbooks/incident-response.md
+  - Checklists:
+      - AI Red Teaming: checklists/ai-red-teaming-checklist.md
+      - LLM App Review: checklists/llm-app-security-review.md
+      - Secure Prompting Review: checklists/secure-prompting-review.md
+  - Patterns:
+      - Attack Taxonomy: patterns/attack-taxonomy.md
+      - Mitigation Patterns: patterns/mitigation-patterns.md
+      - Eval Metrics: patterns/eval-metrics.md
+      - Logging & Monitoring: patterns/logging-and-monitoring.md
+  - Labs:
+      - Prompt Injection Toy App: labs/prompt-injection-toy-app/README.md
