@@ -33,3 +33,5 @@ nav:
       - Logging & Monitoring: patterns/logging-and-monitoring.md
   - Labs:
       - Prompt Injection Toy App: labs/prompt-injection-toy-app/README.md
+      - RAG Poisoning Simulator: labs/rag-poisoning-simulator/README.md
+      - Tool Output Injection Simulator: labs/tool-output-injection-simulator/README.md

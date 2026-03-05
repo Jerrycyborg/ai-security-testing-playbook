@@ -4,6 +4,7 @@ __pycache__/
 venv/
 .env
 .DS_Store
+**/.DS_Store
 .idea/
 .vscode/
 site/

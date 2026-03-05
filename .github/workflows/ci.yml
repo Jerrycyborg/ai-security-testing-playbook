@@ -23,3 +23,14 @@ jobs:
       - name: Python syntax check (labs)
         run: |
           python -m compileall labs
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install docs dependencies
+        run: pip install -r docs-requirements.txt
+
+      - name: Build MkDocs site
+        run: mkdocs build --strict
