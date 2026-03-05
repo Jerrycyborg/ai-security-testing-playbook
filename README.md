@@ -120,6 +120,14 @@ mkdocs serve
 
 ---
 
+## Contributors
+
+| GitHub | Role |
+|--------|------|
+| [@Jerrycyborg](https://github.com/Jerrycyborg) | Creator & Maintainer |
+
+---
+
 ## Contributing
 PRs welcome. Please read:
 - [CONTRIBUTING.md](CONTRIBUTING.md)
